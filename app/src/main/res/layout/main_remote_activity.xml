@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:weightSum="1">
+     <fragment
+         android:id="@+id/headerFragment"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight=".16"
+         class="com.irremote.bluetooth.project.suren.myremote.uiinterface.HeaderFragClass"
+         android:layout_marginTop="2dp"></fragment>
+
+<!--    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/scrollView"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight=".60" >-->
+
+        <fragment
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight=".60"
+            android:name="com.irremote.bluetooth.project.suren.myremote.uiinterface.BodyFragClass"
+            android:id="@+id/fragment"
+            android:layout_gravity="center_horizontal"/>
+    <!--</ScrollView>-->
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="24"
+        android:name="com.irremote.bluetooth.project.suren.myremote.uiinterface.FooterFragClass"
+        android:id="@+id/fragment2"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
+
+<!-- <fragment
+     android:id="@+id/headerFragment"
+     android:layout_width="match_parent"
+     android:layout_weight=".25"
+     android:layout_height="0dp"
+     class="com.irremote.bluetooth.project.suren.learnfrags.HeaderFragClass" ></fragment>-->
+
+<!--<ScrollView
+    android:id="@+id/scrollView"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight=".50">
+
+    <fragment
+        android:id="@+id/channelsFragment"
+        class="com.irremote.bluetooth.project.suren.learnfrags.BodyFragClass"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></fragment>
+</ScrollView>-->
+<!--&lt;!&ndash;
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:name="com.irremote.bluetooth.project.suren.learnfrags.HeaderFragClass"
+        android:id="@+id/fragment"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight = ".50"
+        android:id="@+id/scrollView"
+        android:layout_below="@+id/fragment"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="5dp">
+        <fragment
+            android:id="@+id/channelsFragment"
+            class="com.irremote.bluetooth.project.suren.learnfrags.BodyFragClass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></fragment>
+        </ScrollView>
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.irremote.bluetooth.project.suren.learnfrags.FooterFragClass"
+        android:id="@+id/fragment2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />&ndash;&gt;
+</RelativeLayout>-->
+

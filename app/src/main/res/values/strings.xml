@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">My Remote</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Lables for Checkboxes-->
+    <string name="lableTV">TV</string>
+    <string name="lableAVR">AVR</string>
+    <string name="lableSetup">Tata Sky</string>
+    <string name="lableVolume">Volume</string>
+    <string name="lableChannel">Channel</string>
+    <string name="bluetooth_status_on">Bluetooth On</string>
+
+    <string name="bluetoothModuleName">HC-05</string>
+
+    <string name="tag_power">power</string>
+    <string name="tag_volup">volumeup</string>
+    <string name="tag_voldwn">volumedown</string>
+    <string name="tag_chnup">channelup</string>
+    <string name="tag_chndwn">channeldown</string>
+    <string name="tag_mute">mute</string>
+
+    <!--<string name="bluetoothModuleName">Suren\'s ASUS</string>-->
+
+    <string name="setup_id">SET</string>
+    <string name="cmd_delimiter">~</string>
+
+
+    <string-array name="channelListArray">
+        <item>sun_tv_hd</item>
+        <item>sun_tv</item>
+        <item>ktv_hd</item>
+        <item>ktv</item>
+        <item>sun_news</item>
+        <item>sun_music_hd</item>
+        <item>sun_music</item>
+        <item>vijaytv</item>
+        <item>jaya_tv</item>
+        <item>kalaingar_tv</item>
+        <item>raj_tv</item>
+        <item>isaiaruvi</item>
+        <item>aadithiya</item>
+        <item>puthiya_thaiaimurai</item>
+        <item>vasanth</item>
+        <item>murasu</item>
+        <item>jaya_max</item>
+        <item>siripoli_tv</item>
+        <item>polimer_tv</item>
+        <item>thanthi_tv</item>
+        <item>makkal_tv</item>
+        <item>zee_tamil</item>
+    </string-array>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+</resources>

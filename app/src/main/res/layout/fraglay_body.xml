@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<!--    <GridLayout
+&lt;!&ndash;        android:id="@+id/channelsGrid"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+&lt;!&ndash;
+        android:columnWidth="50dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth">
+&ndash;&gt;
+        &lt;!&ndash;android:layout_gravity="center">&ndash;&gt;
+
+    </GridLayout>&ndash;&gt;-->
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/channelsGrid"
+        android:layout_gravity="center_horizontal"
+        android:numColumns="auto_fit"
+        android:columnWidth="75dp"></GridView>
+        <!--android:columnWidth="60dp"-->
+        <!--android:stretchMode="columnWidth"/>-->
+
+
+<!--    <GridLayout
+        android:id="@+id/channelsGrid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth"
+        android:columnWidth="50dp">-->
+</LinearLayout>

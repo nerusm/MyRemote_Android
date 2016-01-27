@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--******** SETUP Box IR Codes *********-->
+    <string name="select">12583004</string>
+    <string name="SET0">12582912</string>
+    <string name="SET1">12582913</string>
+    <string name="SET2">12582914</string>
+    <string name="SET3">12582915</string>
+    <string name="SET4">12582916</string>
+    <string name="SET5">12582917</string>
+    <string name="SET6">12582918</string>
+    <string name="SET7">12582919</string>
+    <string name="SET8">12582920</string>
+    <string name="SET9">12582921</string>
+
+    <!--********* AVR *********************-->
+    <!--<string name="T+">sdf</string>-->
+</resources>

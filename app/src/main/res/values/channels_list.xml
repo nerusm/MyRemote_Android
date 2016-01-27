@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sun_tv_hd">702</string>
+    <string name="sun_tv">703</string>
+    <string name="ktv_hd">704</string>
+    <string name="ktv">705</string>
+    <string name="sun_news">706</string>
+    <string name="sun_music_hd">707</string>
+    <string name="sun_music">708</string>
+    <string name="vijaytv">710</string>
+    <string name="jaya_tv">712</string>
+    <string name="kalaingar_tv">713</string>
+    <string name="raj_tv">714</string>
+    <string name="isaiaruvi">715</string>
+    <string name="aadithiya">716</string>
+    <string name="puthiya_thaiaimurai">717</string>
+    <string name="vasanth">718</string>
+    <string name="murasu">719</string>
+    <string name="jaya_max">720</string>
+    <string name="siripoli_tv">721</string>
+    <string name="polimer_tv">722</string>
+    <string name="thanthi_tv">723</string>
+    <string name="makkal_tv">724</string>
+    <string name="zee_tamil">725</string>
+    
+    <string name="channelup">1</string>
+    <string name="channeldown">2</string>
+
+</resources>
